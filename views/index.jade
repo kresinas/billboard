@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all, follow" />
+<title>iBILLBOARD - Úloha pro vývojaře č. 1</title>
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" type="text/css" href="http://www.ibillboard.com/uloha/styles/main.css" media="screen">
+</head>
+<body>
+<header>
+<section>
+<h1>Úloha č.1</h1>
+<img src="http://www.ibillboard.com/uloha/images/ibb-logo.png" alt="iBILLBOARD">
+</section>
+</header>
+<section>
+<div class="uloha">
+<p><strong>Napište v JavaScriptu a v Node.js aplikaci, která</strong></p>
+<ol>
+<li>přijímá HTTP POST požadavky jen na routě /track
+<ol>
+<li>z těla požadavku získá data v JSON formátu</li>
+<li>uloží získaná JSON data do souboru na lokálním disku (append)</li>
+<li>pokud se v datech vyskytuje parametr count, zvýší o jeho hodnotu položku s klíčem 'count' v databázi Redis</li>
+</ol>
+</li>
+<li>přijímá HTTP GET požadavky jen na routě /count
+<ol>
+<li>vrátí hodnotu klíče 'count' v databázi Redis</li>
+</ol>
+</li>
+</ol>
+
+<p>Napište příslušné unit testy, které zvládnete.</p>
+</div>
+
+<hr>
+<div class="uloha">
+<p><strong>Write a Node.js application that</strong></p>
+<ol>
+<li>receives HTTP POST requests only on a "/track" route
+<ol>
+<li>gets data in JSON format passed in the request body</li>
+<li>saves the JSON data into a local file (append)</li>
+<li>if the data contains a "count" parameter, the application increments the value of the "count" key by the value of the 'count' parameter in a Redis database</li>
+</ol>
+</li>
+<li>receives HTTP GET requests  only on a "/count" route
+<ol>
+<li>returns the value of the "count" key from the Redis database</li>
+</ol>
+</li>
+</ol>
+
+<p>Write appropriate unit tests.</p>
+</div>
+
+</section>
+<footer>
+<p><a href="http://internet.billboard.cz/">Internet Billboard a.s.</a></p>
+</footer>
+</body>
+</html>
+
